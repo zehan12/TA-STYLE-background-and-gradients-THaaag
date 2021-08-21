@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* reset css off */
+
+.body-gradient{
+    background-image: linear-gradient(to top ,rgb(32,34,47)25%,rgb(30,32,41)75%);
+    color: white;
+}
+
+h1{
+    font-size: 35px;
+    font-family:sans-serif;
+    /* margin-top: 40px; */
+
+}
+
+.p-head{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    word-spacing: 5px;
+    padding: 10px 0;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.side-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30px;
+}
+
+.row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.add-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.box-row-1{
+    border: 2px solid black;
+    align-content: space-around;
+    flex: 0 0 20%;
+    background-color: rgb(37,43,67);
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    padding: 20px;
+    background-color: rgb(37,43,67);
+}
+
+.add-icon-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-row-2{
+    border: black 2px solid;
+    width: 200px;
+}
+
+.grad-2{
+    background-image: linear-gradient(to right, yellow,orange,rgb(250, 49, 149));
+    
+    height: 5px;
+    width: 100%;
+}
+
+.grad-1{
+    background-image: linear-gradient( aqua,rgb(25, 124, 236));
+    
+    height: 5px;
+    width: 100%;
+}
+
+.grad-3{
+    background-image: linear-gradient(red,red);
+    
+    height: 5px;
+    width: 100%;
+}
+
+.fb{
+    color: blue;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.tw{
+    color: cornflowerblue;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.yt{
+    color: rgb(247, 6, 6);
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.in{
+    color: palevioletred;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.big-no{
+    font-size: 40px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 600;
+}
+
+.p-block{
+    font-weight: 100;
+    font-family: system-ui;
+    font-size: 12px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.green{
+    color: rgb(61, 250, 203);
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 40px 0;
+}
+
+.red{
+    color: red;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 40px 0;
+}
+
+.head-2{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 40px 50px;
+
+}
+
+/* overview */
+
+.p-over{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.fb-o{
+    color: rgb(25, 124, 236);
+    font-size: 18px;
+    padding: 20px;
+}
+
+.row-2-f{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.no-over{
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.per-over{
+    padding: 20px;
+    font-size: 12px;
+}
+
+.tw-o{
+    color: rgb(25, 124, 236);
+    font-size: 18px;
+    padding: 20px;
+}
+
+.in-o{
+    color: rgb(248, 176, 68);
+    font-size: 18px;
+    padding: 20px;
+}
+
+.yt-o{
+    color: rgb(248, 68, 68);
+    font-size: 18px;
+    padding: 20px;
+}
